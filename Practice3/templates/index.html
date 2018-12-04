@@ -1,0 +1,43 @@
+<!DOCTYPE html5>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>7bits frontend courses practice weeks 7-8</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+</head>
+<body>
+    <h1 class="title">Давайте начнем!</h1>
+    <form class="reg-form" action="#" method="POST">
+        <p class="reg-form__row">
+            <label for="first-name">Имя</label><br>
+            <input type="text" name="first-name" id="first-name" placeholder="Чендлер" tabindex="1">
+        </p>
+        <p class="reg-form__row">
+            <label for="last-name">Фамилия</label><br>
+            <input type="text" name="last-name" id="last-name" placeholder="Бинг" value="Бинг" tabindex="2">
+        </p>
+        <p class="reg-form__row">
+            <label for="gender">Ваш пол</label><br>
+            <input type="radio" name="gender" id="gender" tabindex="3"><label class="gender">Женский</label>
+            <input type="radio" name="gender" id="gender" tabindex="4"><label class="gender">Мужской</label>
+        </p>
+        <p class="reg-form__row">
+            <label for="email">Введите электронный адрес</label><br>
+            <input type="email" name="email" id="email" placeholder="email@gmail.com" tabindex="5">
+        </p> 
+        <p class="reg-form__row">
+            <label for="password">Придумайте пароль</label><br>
+            <input type="password" name="password" id="password" placeholder="password" value="passwo" tabindex="6">
+        </p>
+        <p class="reg-form__row">
+            <label class="label__terms-text">
+            <input type="checkbox" name="terms" tabindex="7">
+             Я принимаю условия <a class="label__link-terms" href="#" tabindex="8">Пользовательского соглашения</a> 
+                    и даю своё согласие на обработку моих персональных данных 
+                    на условиях, определенных <a class="label__link-terms" href="#" tabindex="9">Политикой конфиденциальности</a>.</label>
+        </p>
+        <button class="reg-form__btn" tabindex="10">Зарегистрироваться</button>
+    </form>
+</body>
+</html>

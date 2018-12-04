@@ -1,0 +1,97 @@
+body {
+    width: 425px;
+    height: 770px;
+    font-family: 'PT Sans', sans-serif;
+    box-shadow: 0 0 10px #d4d4d4; 
+}
+
+.title {
+    padding-top: 55px;
+    font-size: 33px;
+    color: #262e73;
+    font-weight: bold;
+    text-align: center;
+}
+
+.reg-form {
+    margin-left: 20px;
+}
+
+.reg-form__row {
+    margin-bottom: 17px;
+    overflow: hidden;
+}
+
+input {
+    float: left;
+    height: 45px;
+    width: 370px;
+    font-size: 17px;
+    line-height: 11px;
+    color:#282828;
+    margin-top: 5px;
+    padding-left: 20px;
+    border: 1px solid #787d87;
+}
+
+input, label , .reg-form__btn {
+    font-family: 'PT Sans', sans-serif;
+}
+
+input[type=radio] {
+    height: 13px;
+    width: 13px;
+    float: none;
+} 
+
+input[type=password] {
+    font-size: 21px;
+    color: #262e73;
+}
+
+input[type=checkbox] {
+    height: 13px;
+    width: 13px;
+    float: none;
+} 
+
+label {
+    font-size: 14px;
+    color: #262e73;
+}
+
+input::placeholder {
+    font-size: 17px;
+    line-height: 11px;
+    color: #c1c9d5;
+}
+
+.gender {
+    font-size: 17px;
+    color: #282828;
+}
+
+.password {
+    color: #262e73;
+}
+
+.label__terms-text {
+    font-size: 12px;
+    color: #565d69;
+}
+
+.label__link-terms {
+    font-size: 12px;
+    color: #4a518a;
+    text-decoration: none;
+}
+
+.reg-form__btn {
+    width:370px;
+	height:42px;
+	font-size: 17px;
+	background: #0bc691;
+    color:#ffffff;
+    border-radius: 4px;
+    border: none;
+}
